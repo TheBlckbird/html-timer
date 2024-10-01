@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timer {
+    font-family: monospace;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin: 100px;
+}
